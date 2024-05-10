@@ -27,20 +27,13 @@ body{
    
 }
 .header-logo{
-  
     font-size: 24px;
-
 }
 
 .links{
     display: flex;
     margin-left:224px ;
     gap:16px; 
-    
-    
-    
-    
-
 }
 
 a{
@@ -92,5 +85,109 @@ a{
    gap:8px;
 }
 
+.two-header{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bold;
+    text-align: center;
+}
+.text-and-images{
+    display: flex;
+    justify-content: center;
+    gap:32px;
+}
+.placeholder{
+    border: 4px solid #3882f6;
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;;
+}
+.text-image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
+}
+.text-bubble{
+    width:100px;
+    text-align: center;
+
+}
+
+.third{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:60px 100px;
+    
+}
+
+.quote{
+    font-style:italic;
+    width:600px;
+    color: #1f2937;
+    font-size: 36px;
+    
+}
+.quoter{
+    margin-left:600px ;
+    font-weight: bold;
+    width:200px
+}
+
+
+.fourth{
+    display: flex;
+    padding:100px;
+    justify-content: center;
+}
+.call-to-action{
+    background-color: #3882f6;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;;
+    gap:64px;
+    border-radius: 8px;
+
+
+    
+
+
+}
+.text-action{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.bold-text{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+}
+
+.regular-text{
+    margin: 0;
+}
+.button2{
+    width: 120px;
+    background-color: #3882f6;
+    border-radius: 12px;
+    color: #E5E7EB;
+    font-weight: bold;
+    padding: 8px 24px;
+    border: 1px solid white;
+
+
+}
+.footer{
+    background-color: #1f2937;
+}
+
+.copyright{
+    color: #F9FAF8;
+    text-align: center;
+}
 
